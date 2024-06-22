@@ -1,0 +1,152 @@
+body{
+    margin:0 ;
+    padding :0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+p{
+    color: #3b506c;
+    font-size: 18px;
+}
+img{
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 17px -5px;
+}
+.nav-main{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px 15px 0;
+    align-items: center;
+}
+.nav-main img{}
+nav{}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    padding: 0px 0 0 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3b506c;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/*========================================== banner start=========================================== */
+.banner{
+    text-align: center;
+    margin: 100px 0;
+}
+.banner h1{font-size: 70px;color: #3b506c;margin: 0;}
+.banner h1 span{
+    color: #0c66ff;
+}
+.banner p{
+    /* text-align: center; */
+    font-size: 18px;
+}
+
+.banner img{
+    width: 70%;
+    margin: auto;
+    margin: 15px 0 0 0;
+}
+
+/* =========================================completed project========================================= */
+.complete{
+    display: flex;
+    margin-top: 50px;
+}
+.complete-clild{
+    width: 50%;
+    text-align: right;
+    padding: 25px;
+}
+.complete-clild h2{
+    font-size: 40px;
+    color: #3b506c;
+}
+.clild1{
+    color: red !important;
+}
+.clild2{
+    text-align: left;
+}
+.complete-clild h2 p{}
+
+/* ===============================================card================================================== */
+.card-section{
+    margin: 20px;
+    
+}
+.card{
+    display: flex;
+    width:100%;
+    /* background-color: #3b506c; */
+}
+.card-clild{
+    width: 33%;
+    background-color: #ffffc6;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(100 100 111 / 23%) 0px 7px 29px 0px;
+}
+.card-clild:hover{
+    background-color: rgba(239, 106, 99, 0.482);
+}
+.card-clild img{
+    width: 100%;
+    height: 299px;
+    
+}
+.card-clild h3{
+    padding: 10px;
+    font-size: 26px;
+}
+.card-clild p{
+    padding: 15px;
+    text-align: justify;
+}
+
+/* =============================fotter================================ */
+
+.main-footer{
+    display: flex;
+    width:100%;
+    height: 400px;
+    color: black;
+    background-color: #80808073;
+    margin:50px 0 0 0;
+}
+.f-list{
+    width: 25%;
+}
+.f-list h3{
+    padding: 0px 0px 0px 27px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.f-list ul {
+    /* text-decoration: none; */
+}
+.f-list ul li{
+    /* text-decoration: none; */
+    
+    list-style: none;
+    font-size: x-large;
+    padding: 15px 0px 0 3px;
+}
+.f-list ul li a{
+    text-decoration: none;
+}
+
